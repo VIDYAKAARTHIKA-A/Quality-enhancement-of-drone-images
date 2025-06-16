@@ -77,25 +77,21 @@ Run inference on drone images:
 
 LOW RESOLUTION:
 
-![1](https://github.com/user-attachments/assets/b0d65915-5e29-436b-82d0-f8cb2faab263)  ![2](https://github.com/user-attachments/assets/f74f79a6-464f-4b51-9f03-e202fe6e3377)
-
-![3](https://github.com/user-attachments/assets/b0ba9fa1-5c53-49bb-b134-b86ad04e4e82)   ![4](https://github.com/user-attachments/assets/45641ec5-aded-41e6-9edd-e3065e399ee2)
+![1](https://github.com/user-attachments/assets/b0d65915-5e29-436b-82d0-f8cb2faab263) 
 
 HIGH RESOLUTION:
 ![res_0000](https://github.com/user-attachments/assets/b795ffce-dc02-426b-8cf8-69092ea1f018)
 
-![res_0001](https://github.com/user-attachments/assets/a5e05f03-c5ea-447f-ae80-69a42149d536)
-
-![res_0002](https://github.com/user-attachments/assets/53815bbd-ef80-41c8-8a78-3829af122acc)
-
-![res_0003](https://github.com/user-attachments/assets/775b4697-3210-42b4-b5fe-8b8bae558119)
-
 PSNR: 26.0055
 
-**ENHANCING RESULTS:**
+**HOW TO ENHANCE RESULTS FURTHER?:**
 
+* Patch GAN is used to reduce pixelation of output while upscaling
 * pixel wise loss is added along with perceptual and adversarial loss
 * more residual blocks are added
+
+The above mentioned techniques were tried to produce clearer outputs with increased PSNR values
+
 
 **REFERENCES:**
 Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network (SRGAN)
